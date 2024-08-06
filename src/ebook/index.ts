@@ -1,4 +1,4 @@
-import Book from "."
+import Book from "./ebook"
 import Library from "./library"
 import User from "./user"
 
