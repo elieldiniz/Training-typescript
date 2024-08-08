@@ -1,6 +1,6 @@
-import Book from "./ebook/ebook"
-import Library from "./ebook/library"
-import User from "./ebook/user"
+import Book from "./ebook"
+import Library from "./library"
+import User from "./user"
 const library = new Library<Book>()
 const book1 = new Book(1, 'The Great Gatsby', 'F. Scott Fitzgerald', 218);
 const book2 = new Book(2, '1984', 'George Orwell', 328);
